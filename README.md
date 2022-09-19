@@ -4,6 +4,7 @@ A simple blast fast static site with php markdown.
 
 + no need database installation
 + use .md files for write an article post
++ configuration on config.php files
 
 Run Demo : [https://axcora.my.id/md/theme](https://axcora.my.id/md/theme/)
 
