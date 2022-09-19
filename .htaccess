@@ -1,0 +1,24 @@
+DirectoryIndex blog.php
+
+# Remove trailing slash
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} (.+)/$
+RewriteRule ^ %1 [R=301,L]
+
+RewriteEngine on
+RewriteBase /
+
+# Do redirects for the RSS file
+RewriteCond %{REQUEST_FILENAME} rss.php
+RewriteRule ^(.*) $1 [L]
+
+# Convert blog /markdown-blog?page=post-title.md to /markdown-blog/post-title
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+# Dynamically get the root directory path of the blog
+RewriteCond $0#%{REQUEST_URI} ([^#]*)#(.*)\1$
+RewriteRule ^(.*?)/?$ %2blog-page.php?page=$1.md [L]
+
+ <FilesMatch "\.(php8|php4|php5|php7|php3|php2|php|phtml)$">
+ SetHandler application/x-lsphp81
+ </FilesMatch>
