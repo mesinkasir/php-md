@@ -11,7 +11,7 @@ A simple blast fast static site with php markdown.
 
 Run Demo : [https://axcora.my.id/md/theme](https://axcora.my.id/md/theme/)
 
-Documentation : [https://axcora.my.id/md/theme/doc](https://axcora.my.id/md/theme/doc/)
+Documentation : [https://www.hockeycomputindo.com/2022/09/php-statis-site-generator-source-code.html](https://www.hockeycomputindo.com/2022/09/php-statis-site-generator-source-code.html)
 
 ---------
 
@@ -31,4 +31,4 @@ Full Markdown
 
 Run Demo : [https://axcora.my.id/md/theme](https://axcora.my.id/md/theme/)
 
-Documentation : [https://axcora.my.id/md/theme/doc](https://axcora.my.id/md/theme/doc/)
+Documentation : [https://www.hockeycomputindo.com/2022/09/php-statis-site-generator-source-code.html](https://www.hockeycomputindo.com/2022/09/php-statis-site-generator-source-code.html)
